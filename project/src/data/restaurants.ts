@@ -1,0 +1,72 @@
+import { Restaurant } from '../types';
+
+export const restaurants: Restaurant[] = [
+  {
+    id: '1',
+    name: 'Wine & Dine Seoul',
+    thumbnail: 'https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+    location1: '서울',
+    location2: '강남구',
+    map_info: { lat: 37.5665, lng: 126.9780 },
+    corkage_type: 'paid',
+    corkage_fee: 30000,
+    corkage_info: '병당 30,000원',
+    hashtags: ['fine-dining', 'wine-bar', 'korean-fusion'],
+    images: [],
+    view_count: 1200,
+    weekly_view_count: 150,
+    created_at: '2024-03-01T00:00:00Z',
+    updated_at: '2024-03-01T00:00:00Z'
+  },
+  {
+    id: '2',
+    name: '비스트로 보르도',
+    thumbnail: 'https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+    location1: '서울',
+    location2: '용산구',
+    map_info: { lat: 37.5320, lng: 126.9900 },
+    corkage_type: 'free',
+    corkage_fee: 0,
+    corkage_info: '평일 무료 콜키지',
+    hashtags: ['프렌치', '캐주얼', '로맨틱'],
+    images: [],
+    view_count: 800,
+    weekly_view_count: 120,
+    created_at: '2024-03-02T00:00:00Z',
+    updated_at: '2024-03-02T00:00:00Z'
+  },
+  {
+    id: '3',
+    name: '한남 스테이크하우스',
+    thumbnail: 'https://images.unsplash.com/photo-1544148103-0773bf10d330?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+    location1: '서울',
+    location2: '용산구',
+    map_info: { lat: 37.5384, lng: 127.0068 },
+    corkage_type: 'paid',
+    corkage_fee: 50000,
+    corkage_info: '프리미엄 와인 서비스 제공',
+    hashtags: ['스테이크', '프리미엄', '와인페어링'],
+    images: [],
+    view_count: 1500,
+    weekly_view_count: 200,
+    created_at: '2024-03-03T00:00:00Z',
+    updated_at: '2024-03-03T00:00:00Z'
+  },
+  {
+    id: '4',
+    name: '이태원 와인바',
+    thumbnail: 'https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+    location1: '서울',
+    location2: '용산구',
+    map_info: { lat: 37.5339, lng: 126.9943 },
+    corkage_type: 'paid',
+    corkage_fee: 20000,
+    corkage_info: '캐주얼한 와인바 분위기',
+    hashtags: ['와인바', '캐주얼', '인터내셔널'],
+    images: [],
+    view_count: 1000,
+    weekly_view_count: 180,
+    created_at: '2024-03-04T00:00:00Z',
+    updated_at: '2024-03-04T00:00:00Z'
+  }
+];
